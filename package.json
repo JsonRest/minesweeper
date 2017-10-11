@@ -1,0 +1,24 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Minesweeper project using JS and React with transpilation support",
+  "main": "minesweeper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsonRest/minesweeper.git"
+  },
+  "author": "Jesse Liamzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JsonRest/minesweeper/issues"
+  },
+  "homepage": "https://github.com/JsonRest/minesweeper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
